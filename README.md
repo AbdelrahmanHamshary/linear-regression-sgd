@@ -79,8 +79,6 @@ pip install -r requirements.txt
 
 ---
 
-## 🧩 Usage
-
 ### 🧠 Professional Mode (Recommended for Submission)
 
 ```bash
@@ -107,56 +105,6 @@ python main.py
 
 ---
 
-## 💡 Sample Terminal Output
-
-```
-============================================================
-📈 Linear Regression with Stochastic Gradient Descent
-============================================================
-
-[1] Loading data... ✓ 25 samples loaded
-
-[2] Splitting data (80% train / 20% test)
-    ✓ Training: 20 samples
-    ✓ Testing : 5 samples
-
-[3] Normalizing features... ✓ Done
-
-[4] Training model...
-Iteration 100/1000, Loss = 45.2341
-Iteration 200/1000, Loss = 23.5678
-...
-✓ Model training completed!
-
-============================================================
-📊 RESULTS
-============================================================
-
-🔧 Model Parameters
-  Weights: [0.1234, 0.5678, 0.9012]
-  Bias   : 0.3456
-
-📈 Training Set
-  R² = 0.8765 | MSE = 12.34 | MAE = 2.79
-
-🎯 Test Set
-  R² = 0.8234 | MSE = 15.67 | MAE = 3.12
-
-✨ Visualizing results...
-  ✅ Loss Curve
-  ✅ Predictions (Train/Test)
-  ✅ Residuals
-  ✅ Feature Importance
-============================================================
-🎉 Training completed successfully!
-============================================================
-```
-
----
-
-
-## 🧮 Technical Overview
-
 ### ⚙️ Algorithm Details
 
 | Parameter         | Description                   |
@@ -170,19 +118,6 @@ Iteration 200/1000, Loss = 23.5678
 
 ---
 
-## 🎨 Visualization Dashboard
-
-> 7 fully-styled subplots with professional presentation
-
-|  #  | Visualization              | Description                         |
-| :-: | -------------------------- | ----------------------------------- |
-| 1️⃣ | **Loss Curve**             | Tracks model convergence            |
-| 2️⃣ | **Train Predictions**      | Actual vs Predicted (train data)    |
-| 3️⃣ | **Test Predictions**       | Actual vs Predicted (test data)     |
-| 4️⃣ | **Residuals**              | Shows prediction errors             |
-| 5️⃣ | **Feature Importance**     | Weight magnitudes                   |
-| 6️⃣ | **Error Distribution**     | Histogram + mean error line         |
-| 7️⃣ | **Performance Comparison** | R² / MSE / MAE across train vs test |
 
 🖌️ **Design Highlights:**
 
@@ -205,28 +140,9 @@ Iteration 200/1000, Loss = 23.5678
 | `SHOW_PLOTS`           | `True`  | Toggle visual output      |
 | `PRINT_PROGRESS_EVERY` | `100`   | Log frequency             |
 
----
 
-🧩 Robustness & Error Handling
 
-* 🧱 **File checks** for dataset existence
-* 🔍 **Input validation** for shape & format
-* 🛡️ **Safe visualization handling**
-* ⏳ **Progress bars & logging**
-* 💬 **Descriptive error messages**
 
----
-
-🧮 Performance Analysis
-
-* 📉 **Convergence tracking**
-* 🧠 **Generalization check** on test data
-* ⚖️ **Feature weight insights**
-* 🔍 **Residual and error analysis**
-* 🔧 **Learning rate tuning experiments**
-* 🧾 **Statistical validation metrics**
-
----
 
 ✅ Assignment Requirements Met
 
@@ -244,3 +160,4 @@ Iteration 200/1000, Loss = 23.5678
 **📘 Course:Artificial Intelligence – Fall 2025
 
 ---
+
