@@ -1,0 +1,19 @@
+# Python Dependencies for Linear Regression SGD Implementation
+
+# Core scientific computing and visualization
+matplotlib>=3.5.0
+numpy>=1.21.0
+
+# Standard library modules (included with Python)
+# csv - Built-in CSV handling
+# random - Built-in random number generation  
+# math - Built-in mathematical functions
+
+# Optional: For enhanced development experience
+# jupyter>=1.0.0          # For notebook development
+# pandas>=1.3.0          # For advanced data manipulation (if needed)
+# seaborn>=0.11.0        # For enhanced visualizations (if needed)
+
+# Note: This implementation uses only standard library modules
+# (csv, random, math) plus matplotlib and numpy for visualization.
+# No external machine learning libraries are used as per assignment requirements.
